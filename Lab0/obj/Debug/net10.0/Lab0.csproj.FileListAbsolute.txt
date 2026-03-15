@@ -12,3 +12,4 @@ C:\Users\pawel\Documents\Projekty\.NET\Lab0\obj\Debug\net10.0\refint\Lab0.dll
 C:\Users\pawel\Documents\Projekty\.NET\Lab0\obj\Debug\net10.0\Lab0.pdb
 C:\Users\pawel\Documents\Projekty\.NET\Lab0\obj\Debug\net10.0\Lab0.genruntimeconfig.cache
 C:\Users\pawel\Documents\Projekty\.NET\Lab0\obj\Debug\net10.0\ref\Lab0.dll
+C:\Users\pawel\Documents\Projekty\.NET\Lab0\obj\Debug\net10.0\Lab0.sourcelink.json
