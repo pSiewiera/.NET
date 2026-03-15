@@ -36,6 +36,7 @@
                 {
                     Console.WriteLine(i);
                 }
+                int x = 5;
             }
         }
     }
