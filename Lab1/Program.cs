@@ -1,4 +1,6 @@
-﻿using System;
+﻿using System.Runtime.CompilerServices;
+[assembly: InternalsVisibleTo("Lab1Tests")]
+[assembly: InternalsVisibleTo("Lab1GUI")]
 
 namespace Lab1
 {

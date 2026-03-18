@@ -23,12 +23,12 @@ namespace Lab1
 
         public override string ToString()
         {
-          string s = "Wynik:\n";
-            s += "  Liczba przedmiotów: " + ItemIndexes.Count + "\n";
+          string s = "Wynik:\r\n";
+            s += "  Liczba przedmiotów: " + ItemIndexes.Count + "\r\n";
             if (!IsEmpty())
-                s += "  Indeksy przedmiotów: " + string.Join(", ", ItemIndexes) + "\n";
-            s += "  Łączna wartość: " + TotalValue + "\n";
-            s += "  Łączna waga: " + TotalWeight + "\n";
+                s += "  Indeksy przedmiotów: " + string.Join(", ", ItemIndexes) + "\r\n";
+            s += "  Łączna wartość: " + TotalValue + "\r\n";
+            s += "  Łączna waga: " + TotalWeight + "\r\n";
             return s;
         }
     }

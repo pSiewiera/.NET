@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
-
+using System.Runtime.CompilerServices;
+[assembly: InternalsVisibleTo("Lab1Tests")]
+[assembly: InternalsVisibleTo("Lab1GUI")]
 namespace Lab1
 {
     internal class Problem
@@ -64,10 +66,10 @@ namespace Lab1
 
         public override string ToString()
         {
-            string s = $" liczba przedmiotów = {NumberOfItems}\nLista przedmiotów:\n";
+            string s = $" liczba przedmiotów = {NumberOfItems}\r\nLista przedmiotów:\r\n";
             foreach (var item in Items)
             {
-                s += "  " + item.ToString() + "\n";
+                s += "  " + item.ToString() + "\r\n";
             }
             return s;
         }
