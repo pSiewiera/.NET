@@ -1,0 +1,15 @@
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\obj\Debug\net10.0-windows\Lab_image.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\obj\Debug\net10.0-windows\Lab_image.AssemblyInfoInputs.cache
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\obj\Debug\net10.0-windows\Lab_image.AssemblyInfo.cs
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\obj\Debug\net10.0-windows\Lab_image.csproj.CoreCompileInputs.cache
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\obj\Debug\net10.0-windows\Lab_image.sourcelink.json
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\bin\Debug\net10.0-windows\Lab_image.exe
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\bin\Debug\net10.0-windows\Lab_image.deps.json
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\bin\Debug\net10.0-windows\Lab_image.runtimeconfig.json
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\bin\Debug\net10.0-windows\Lab_image.dll
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\bin\Debug\net10.0-windows\Lab_image.pdb
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\obj\Debug\net10.0-windows\Lab_image.dll
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\obj\Debug\net10.0-windows\refint\Lab_image.dll
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\obj\Debug\net10.0-windows\Lab_image.pdb
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\obj\Debug\net10.0-windows\Lab_image.genruntimeconfig.cache
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_image\obj\Debug\net10.0-windows\ref\Lab_image.dll

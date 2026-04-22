@@ -1,0 +1,15 @@
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\bin\Debug\net10.0\Lab_multithreading.exe
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\bin\Debug\net10.0\Lab_multithreading.deps.json
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\bin\Debug\net10.0\Lab_multithreading.runtimeconfig.json
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\bin\Debug\net10.0\Lab_multithreading.dll
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\bin\Debug\net10.0\Lab_multithreading.pdb
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\obj\Debug\net10.0\Lab_multithreading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\obj\Debug\net10.0\Lab_multithreading.AssemblyInfoInputs.cache
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\obj\Debug\net10.0\Lab_multithreading.AssemblyInfo.cs
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\obj\Debug\net10.0\Lab_multithreading.csproj.CoreCompileInputs.cache
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\obj\Debug\net10.0\Lab_multithreading.sourcelink.json
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\obj\Debug\net10.0\Lab_multithreading.dll
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\obj\Debug\net10.0\refint\Lab_multithreading.dll
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\obj\Debug\net10.0\Lab_multithreading.pdb
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\obj\Debug\net10.0\Lab_multithreading.genruntimeconfig.cache
+C:\Users\pawel\Documents\Projekty\.NET\Lab3\Lab_multithreading\obj\Debug\net10.0\ref\Lab_multithreading.dll

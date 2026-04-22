@@ -1,0 +1,6 @@
+C:\Users\pawel\Documents\Projekty\.NET\Lab22\obj\Debug\net10.0\Lab22.csproj.AssemblyReference.cache
+C:\Users\pawel\Documents\Projekty\.NET\Lab22\obj\Debug\net10.0\Lab22.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawel\Documents\Projekty\.NET\Lab22\obj\Debug\net10.0\Lab22.AssemblyInfoInputs.cache
+C:\Users\pawel\Documents\Projekty\.NET\Lab22\obj\Debug\net10.0\Lab22.AssemblyInfo.cs
+C:\Users\pawel\Documents\Projekty\.NET\Lab22\obj\Debug\net10.0\Lab22.csproj.CoreCompileInputs.cache
+C:\Users\pawel\Documents\Projekty\.NET\Lab22\obj\Debug\net10.0\Lab22.sourcelink.json

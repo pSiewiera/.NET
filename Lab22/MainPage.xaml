@@ -1,0 +1,30 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Lab22.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            <Label Text="Pogoda z API i Bazy" FontSize="24" HorizontalOptions="Center" />
+
+            <Entry x:Name="LatEntry" Placeholder="Szerokość" Text="51.1079" Keyboard="Numeric" />
+            <Entry x:Name="LonEntry" Placeholder="Długość" Text="17.0385" Keyboard="Numeric" />
+
+            <Button Text="Pobierz Dane" Clicked="OnFetchBtnClicked" />
+
+            <Label Text="Historia w Bazie:" FontAttributes="Bold" />
+            <CollectionView x:Name="HistoryList">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Margin="0,5" Padding="10">
+                            <HorizontalStackLayout Spacing="10">
+                                <Label Text="{Binding Time}" />
+                                <Label Text="{Binding Temperature, StringFormat='{0}C'}" FontAttributes="Bold" />
+                                <Label Text="{Binding WindSpeed, StringFormat='Wiatr: {0}km/h'}" />
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
