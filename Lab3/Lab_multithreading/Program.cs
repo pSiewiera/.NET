@@ -35,7 +35,7 @@ namespace Lab_multithreading
         {
             Array.Clear(result, 0, result.Length);
             var options = new ParallelOptions { MaxDegreeOfParallelism = maxThreads };
-            
+            int size = this.size; // Lokalna kopia dla zamknięcia w lambda
             Stopwatch sw = Stopwatch.StartNew();
             Parallel.For(0, size, options, i =>
             {
