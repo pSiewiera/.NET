@@ -1,0 +1,93 @@
+@page "/movies"
+@using Microsoft.EntityFrameworkCore
+@using Zadanie3.Data
+@using Zadanie3.Models
+@using Microsoft.AspNetCore.Authorization
+@inject ApplicationDbContext DB
+@attribute [Authorize]
+@rendermode InteractiveServer
+
+<h3>Baza Filmów</h3>
+
+<div class="card p-3 mb-4">
+    <h5>Dodaj nowy film</h5>
+    <EditForm Model="newMovie" OnValidSubmit="AddMovie" FormName="AddMovieForm">
+        <DataAnnotationsValidator />
+        <ValidationSummary />
+
+        <div class="mb-2">
+            <label>Tytuł:</label>
+            <InputText @bind-Value="newMovie.Title" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>Opis:</label>
+            <InputTextArea @bind-Value="newMovie.Description" class="form-control" />
+        </div>
+        <div class="mb-2">
+            <label>Link do plakatu (URL):</label>
+            <InputText @bind-Value="newMovie.ImageUrl" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary">Zapisz film</button>
+    </EditForm>
+</div>
+
+<h4>Lista filmów</h4>
+@if (movies == null)
+{
+    <p>Ładowanie...</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Plakat</th>
+                <th>Tytuł</th>
+                <th>Średnia ocena</th>
+                <th>Liczba głosów</th>
+                <th>Akcja</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var movie in movies)
+            {
+                <tr>
+                    <td><img src="@movie.ImageUrl" style="width: 50px; height: auto;" alt="brak" /></td>
+                    <td>@movie.Title</td>
+                    <td>@movie.Rate.ToString("0.0") / 10</td>
+                    <td>@movie.VoteCount</td>
+                    <td>
+                        <a class="btn btn-sm btn-info" href="/movies/details/@movie.Id">Szczegóły / Oceń</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Movie>? movies;
+    private Movie newMovie = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadMovies();
+    }
+
+    private async Task LoadMovies()
+    {
+        movies = await DB.Movies.OrderBy(m => m.Title).ToListAsync();
+    }
+
+    private async Task AddMovie()
+    {
+        newMovie.Rate = 0;
+        newMovie.VoteCount = 0;
+        
+        DB.Movies.Add(newMovie);
+        await DB.SaveChangesAsync();
+        
+        newMovie = new(); 
+        await LoadMovies();
+    }
+}

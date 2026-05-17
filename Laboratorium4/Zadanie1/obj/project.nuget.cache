@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "cVv7qsmM+Yw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\pawel\\Documents\\Projekty\\.NET\\Laboratorium4\\Zadanie1\\Zadanie1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pawel\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.3\\microsoft.aspnetcore.app.internal.assets.10.0.3.nupkg.sha512",
+    "C:\\Users\\pawel\\.nuget\\packages\\microsoft.aspnetcore.authentication.certificate\\10.0.8\\microsoft.aspnetcore.authentication.certificate.10.0.8.nupkg.sha512",
+    "C:\\Users\\pawel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.4\\microsoft.bcl.asyncinterfaces.9.0.4.nupkg.sha512",
+    "C:\\Users\\pawel\\.nuget\\packages\\microsoft.extensions.ml\\5.0.0\\microsoft.extensions.ml.5.0.0.nupkg.sha512",
+    "C:\\Users\\pawel\\.nuget\\packages\\microsoft.ml\\5.0.0\\microsoft.ml.5.0.0.nupkg.sha512",
+    "C:\\Users\\pawel\\.nuget\\packages\\microsoft.ml.cpumath\\5.0.0\\microsoft.ml.cpumath.5.0.0.nupkg.sha512",
+    "C:\\Users\\pawel\\.nuget\\packages\\microsoft.ml.dataview\\5.0.0\\microsoft.ml.dataview.5.0.0.nupkg.sha512",
+    "C:\\Users\\pawel\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\pawel\\.nuget\\packages\\system.codedom\\9.0.4\\system.codedom.9.0.4.nupkg.sha512",
+    "C:\\Users\\pawel\\.nuget\\packages\\system.numerics.tensors\\9.0.4\\system.numerics.tensors.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,60 @@
+@page "/movies/details/{Id:int}"
+@using Zadanie3.Data
+@using Zadanie3.Models
+@inject ApplicationDbContext DB
+@rendermode InteractiveServer
+
+@if (movie == null)
+{
+    <p>Nie znaleziono filmu...</p>
+}
+else
+{
+    <div class="row">
+        <div class="col-md-4">
+            <img src="@movie.ImageUrl" class="img-fluid rounded" alt="Plakat" />
+        </div>
+        <div class="col-md-8">
+            <h2>@movie.Title</h2>
+            <p class="text-muted">Liczba głosów: @movie.VoteCount</p>
+            <h4 class="text-warning">Średnia ocena: @movie.Rate.ToString("0.0") / 10</h4>
+            <p class="mt-3">@movie.Description</p>
+
+            <hr />
+
+            <div class="card p-3 bg-light">
+                <h5>Wystaw swoją ocenę (1-10)</h5>
+                <div class="d-flex gap-2 align-items-center">
+                    <input type="number" min="1" max="10" @bind="userGrade" class="form-control w-25" />
+                    <button class="btn btn-success" @onclick="SubmitRating">Wyślij</button>
+                </div>
+            </div>
+            
+            <a href="/movies" class="btn btn-secondary mt-3">Powrót do listy</a>
+        </div>
+    </div>
+}
+
+@code {
+    [Parameter] public int Id { get; set; }
+    private Movie? movie;
+    private float userGrade = 5;
+
+    protected override async Task OnInitializedAsync()
+    {
+        movie = await DB.Movies.FindAsync(Id);
+    }
+
+    private async Task SubmitRating()
+    {
+        if (movie != null)
+        {
+            float totalPoints = movie.Rate * movie.VoteCount;
+            movie.VoteCount++;
+            movie.Rate = (totalPoints + userGrade) / movie.VoteCount;
+
+            DB.Movies.Update(movie);
+            await DB.SaveChangesAsync();
+        }
+    }
+}

@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/SampleClassification/">
+    <Project Path="SampleClassification/SampleClassification.Model/SampleClassification.Model.csproj" />
+  </Folder>
+  <Project Path="Zadanie1/Zadanie1.csproj" />
+  <Project Path="Zadanie3/Zadanie3.csproj" />
+</Solution>

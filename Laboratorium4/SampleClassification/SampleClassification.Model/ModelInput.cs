@@ -1,0 +1,50 @@
+//*****************************************************************************************
+//*                                                                                       *
+//* This is an auto-generated file by Microsoft ML.NET CLI (Command-Line Interface) tool. *
+//*                                                                                       *
+//*****************************************************************************************
+
+using Microsoft.ML.Data;
+
+namespace SampleClassification.Model
+{
+    public class ModelInput
+    {
+        [ColumnName("textID"), LoadColumn(0)]
+        public string TextID { get; set; }
+
+
+        [ColumnName("text"), LoadColumn(1)]
+        public string Text { get; set; }
+
+
+        [ColumnName("sentiment"), LoadColumn(2)]
+        public string Sentiment { get; set; }
+
+
+        [ColumnName("Time of Tweet"), LoadColumn(3)]
+        public string Time_of_Tweet { get; set; }
+
+
+        [ColumnName("Age of User"), LoadColumn(4)]
+        public string Age_of_User { get; set; }
+
+
+        [ColumnName("Country"), LoadColumn(5)]
+        public string Country { get; set; }
+
+
+        [ColumnName("Population -2020"), LoadColumn(6)]
+        public float Population__2020 { get; set; }
+
+
+        [ColumnName("Land Area (Km�)"), LoadColumn(7)]
+        public float Land_Area__Km__ { get; set; }
+
+
+        [ColumnName("Density (P/Km�)"), LoadColumn(8)]
+        public float Density__P_Km__ { get; set; }
+
+
+    }
+}

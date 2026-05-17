@@ -1,0 +1,12 @@
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\bin\Debug\netstandard2.0\MLModel.zip
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\bin\Debug\netstandard2.0\SampleClassification.Model.deps.json
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\bin\Debug\netstandard2.0\SampleClassification.Model.dll
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\bin\Debug\netstandard2.0\SampleClassification.Model.pdb
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\obj\Debug\netstandard2.0\SampleClassification.Model.csproj.AssemblyReference.cache
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\obj\Debug\netstandard2.0\SampleClassification.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\obj\Debug\netstandard2.0\SampleClassification.Model.AssemblyInfoInputs.cache
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\obj\Debug\netstandard2.0\SampleClassification.Model.AssemblyInfo.cs
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\obj\Debug\netstandard2.0\SampleClassification.Model.csproj.CoreCompileInputs.cache
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\obj\Debug\netstandard2.0\SampleClassification.Model.sourcelink.json
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\obj\Debug\netstandard2.0\SampleClassification.Model.dll
+C:\Users\pawel\Documents\Projekty\.NET\Laboratorium4\SampleClassification\SampleClassification.Model\obj\Debug\netstandard2.0\SampleClassification.Model.pdb

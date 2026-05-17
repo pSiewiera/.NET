@@ -1,0 +1,35 @@
+@page "/sentiment"
+@rendermode InteractiveServer
+@using Microsoft.Extensions.ML
+@using SampleClassification.Model
+@inject PredictionEnginePool<ModelInput, ModelOutput> PredictionPool
+
+<h3>Analiza Nastroju</h3>
+
+<div class="mb-3">
+    <textarea class="form-control" @bind="userInput" rows="3" placeholder="Wpisz tekst nastroju..."></textarea>
+</div>
+<button class="btn btn-primary" @onclick="Analyze">Analizuj</button>
+
+@if (result != null)
+{
+    <div class="mt-3 alert alert-info">
+        <p>Przewidywany nastrój: <strong>@result.Prediction</strong></p>
+        <p>Pewność: <strong>@(Math.Round(result.Score.Max() * 100, 2))%</strong></p>
+    </div>
+}
+
+@code {
+    private string userInput = "";
+    private ModelOutput? result;
+
+    private void Analyze()
+    {
+        if (!string.IsNullOrWhiteSpace(userInput))
+        {
+            // Upewnij się, że w ModelInput.cs pole nazywa się "Text" (dużą literą)
+            var input = new ModelInput { Text = userInput }; 
+            result = PredictionPool.Predict(input);
+        }
+    }
+}
